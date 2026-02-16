@@ -1,6 +1,9 @@
 # Context
-Build a webendpoint that ChatGPT can call to serve data from your SQL database (Postgres hosted on Supabase).
-Setup custom action in ChatGPT to execute
+Build a webendpoint that ChatGPT can call to serve data from your SQL database.
+
+# Stack
+SQL DB: Postgres hosted on supabase.com
+Web endpoint: hosted by render.com
 
 # FastAPI Database Connector
 
