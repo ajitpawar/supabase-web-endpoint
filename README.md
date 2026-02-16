@@ -1,13 +1,12 @@
+# Context
+Build a webendpoint that ChatGPT can call to serve data from your SQL database (Postgres hosted on Supabase).
+Setup custom action in ChatGPT to execute
+
 # FastAPI Database Connector
 
 A FastAPI service that provides SQL query endpoints for Supabase (or any PostgreSQL database). The service offers two connection methods:
 - SQLAlchemy 
 - Direct psycopg2 database connection
-
-## 📧 Contact
-
-For any issues or questions, please drop me an email at: **amar@harolikar.com**
-
 
 ### 1. Deployment Steps
 
@@ -74,7 +73,7 @@ You can deploy this service on various platforms like Render, Railway, Heroku, o
              "type": "string"
          },
          "description": "YOUR_REX_API_KEY",  // ← PUT YOUR ACTUAL API KEY HERE
-         "example": "rex-jasjf887^&^jjf"     // ← This is just an example, don't change
+         "example": "rex-jasjf887^&^jjf"     // ← This is just an example
      }
      ```
 4. Configure your Custom GPT with appropriate instructions for handling database queries
